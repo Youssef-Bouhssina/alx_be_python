@@ -18,5 +18,5 @@ class BankAccount:
         return False
 
     def display_balance(self):
-        """Print the current balance."""
-        print(f"Current Balance: ${self.account_balance}")
+        """Print the current balance with two decimal places."""
+        print(f"Current Balance: ${self.account_balance:.2f}")
